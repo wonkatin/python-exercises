@@ -33,7 +33,7 @@
 # > {'a': 3, 'b': 1, 'n': 3}
 
 
-string = 'strawberry'
+string = 'strawberry 🌶 🫑'
 def letter_count(string):
     dd = {}
     for letter in string:

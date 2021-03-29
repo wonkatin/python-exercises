@@ -15,3 +15,14 @@ for i in range(1,n+1):
     fact = fact * i
 print ("The factorial of 23 is : ",end="")
 print (fact)
+
+def factorial(n):
+    total = 1
+    for i in range(1, n + 1):
+        print(f'i is {i} total is {total}')
+        total *= i
+        
+    return total
+
+solv = factorial(5)
+print(solv)
